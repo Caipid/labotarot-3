@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, "ru");
 	int c1, c2, c3, max, min;
-	cout << "Ââåäèòå 3 ÷èñëà: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 3 Ñ‡Ð¸ÑÐ»Ð°: ";
 	cin >> c1 >> c2 >> c3;
 	if (c1 > c3 && c1 > c2) {
 		max = c1;
@@ -25,6 +25,6 @@ int main() {
 			min = c3;
 			}
 	int v = max - min;
-	cout << "Ðàññòîÿíèå = " << v;
+	cout << "Ð Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ = " << v;
 }
 
