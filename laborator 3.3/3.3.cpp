@@ -8,15 +8,16 @@ int main() {
 	int x;
 	cout << "x = ";
 	cin >> x;
-	if (2 < x < 5) {
-		y = atan(b / (pow(x, 2) + 1));
-	}
-	if (x >= 5) {
-		y = log(abs(x + pow(x * a, 0.5)));
-	}
 	if (x <= 2) {
 		y = (a + x) / (1 + sqrt(x));
 	}
+	else if (2 < x && x < 5) {
+		y = atan(b / (pow(x, 2) + 1));
+	}
+	else{
+		y = log(abs(x + pow(x * a, 0.5)));
+	}
+
 	cout << "y = " << y;
 
 }
