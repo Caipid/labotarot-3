@@ -8,22 +8,22 @@ int main() {
 	cin >> day;
 	switch (day)
 	{
-	case 1: cout << "Ďîíĺäĺëüíčę";
+	case 1: cout << "Понедельник";
 		break;
-	case 2: cout << "Âňîđíčę";
+	case 2: cout << "Вторник";
 		break;
-	case 3: cout << "Ńđĺäŕ";
+	case 3: cout << "Среда";
 		break;
-	case 4: cout << "×ĺňâĺđă";
+	case 4: cout << "Четверг";
 		break;
-	case 5: cout << "Ďň˙íčöŕ";
+	case 5: cout << "Пятница";
 		break;
-	case 6: cout << "Ńóááîňŕ";
+	case 6: cout << "Суббота";
 		break;
-	case 7: cout << "Âîńęđĺńĺíüĺ";
+	case 7: cout << "Воскресенье";
 		break;
 	default:
-		cout << "Â íĺäĺëĺ ňîëüęî 7 äíĺé";
+		cout << "В недели 7 дней";
 
 	}
 }
