@@ -4,26 +4,26 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, "ru");
 	int day;
-	cout << "Ââåäèòå íîìåð äíÿ íåäåëè: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´ÐµÐ½ÑŒ Ð½ÐµÐ´ÐµÐ»Ð¸: ";
 	cin >> day;
 	switch (day)
 	{
-	case 1: cout << "Ïîíåäåëüíèê";
+	case 1: cout << "ÄŽÃ®Ã­ÄºÃ¤ÄºÃ«Ã¼Ã­ÄÄ™";
 		break;
-	case 2: cout << "Âòîðíèê";
+	case 2: cout << "Ã‚ÅˆÃ®Ä‘Ã­ÄÄ™";
 		break;
-	case 3: cout << "Ñðåäà";
+	case 3: cout << "ÅƒÄ‘ÄºÃ¤Å•";
 		break;
-	case 4: cout << "×åòâåðã";
+	case 4: cout << "Ã—ÄºÅˆÃ¢ÄºÄ‘Äƒ";
 		break;
-	case 5: cout << "Ïòÿíèöà";
+	case 5: cout << "ÄŽÅˆË™Ã­ÄÃ¶Å•";
 		break;
-	case 6: cout << "Ñóááîòà";
+	case 6: cout << "ÅƒÃ³Ã¡Ã¡Ã®ÅˆÅ•";
 		break;
-	case 7: cout << "Âîñêðåñåíüå";
+	case 7: cout << "Ã‚Ã®Å„Ä™Ä‘ÄºÅ„ÄºÃ­Ã¼Äº";
 		break;
 	default:
-		cout << "Â íåäåëå òîëüêî 7 äíåé";
+		cout << "Ã‚ Ã­ÄºÃ¤ÄºÃ«Äº ÅˆÃ®Ã«Ã¼Ä™Ã® 7 Ã¤Ã­ÄºÃ©";
 
 	}
 }
